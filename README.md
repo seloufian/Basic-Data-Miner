@@ -55,7 +55,7 @@ Project realized in **February 2020** as a university practical work, field: Art
 
 ## Technologies
 
-- **Java** (with [JFreeChart](https://github.com/jfree/jfreechart) [Swing doesn't support graphs natively]. Used version: *JDK 8*).
+- **Java** (with [JFreeChart](https://github.com/jfree/jfreechart) [Swing doesn't support graphs natively]. Used version: *JDK 11*).
 
 ## Build & Application use
 
@@ -68,12 +68,11 @@ Usage of the application itself is quite simple, the datasets are imported from 
 ## Features
 
 - *Dataset visualization:*
-
   - Importing the dataset and displaying its instances: attributes and their values.
-  - Presentation, for each attribute, its type and *central tendency statistics* (for "numeric" and "ordinal" types): mean, median, mode and symmetry's existence.
+  - Presentation, for each attribute, its type and *central tendency statistics* (for *"numeric"* and *"ordinal"* types): mean, median, mode and symmetry's existence.
 
 - *Boxplot & Outliers:*
-  - Display, for numeric attributes, the *five-number summary*: quartiles 1, 2 (median) and 3 and the min / max.
+  - Display, for *numeric* attributes, the *five-number summary*: quartiles 1, 2 (median) and 3 and the min / max.
   - Reporting of outliers (if they exist): number of the instance and its value.
   - Graphical representation of the associated boxplot.
 
@@ -99,11 +98,11 @@ Usage of the application itself is quite simple, the datasets are imported from 
     - Parameter specification: *number of clusters* and (only for *CLARANS*) *local minima* and *max neighbors*.
     - Display of the results: The *absolute error* and for each cluster, its medoid and instances.
 
-  - Display of algorithms execution time.
+  - Display algorithms execution time.
 
 ## About
 
-This project is free of rights. The main references consulted for its realization are:
+This project is rights-free. The main references consulted for its realization are:
 
 - Data mining: concepts and techniques / Jiawei Han, Micheline Kamber, Jian Pei. – 3rd ed.
 - Raymond T. Ng and Jiawei Han - CLARANS: A Method for Clustering Objects for Spatial Data Mining (2002).
